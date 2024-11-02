@@ -1,0 +1,70 @@
+/* Custom CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section .btn {
+    margin: 0.5rem 0;
+}
+
+/* Services Section */
+#services h2 {
+    font-weight: bold;
+}
+
+.service-box {
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Portfolio Section */
+.portfolio-item {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact .form-control {
+    border-radius: 5px;
+}
+
+#contact .btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
